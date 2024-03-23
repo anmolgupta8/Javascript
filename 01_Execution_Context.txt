@@ -1,0 +1,10 @@
+Everything in javascript happens in execution context
+
+Execution context -> Two parts :
+Memory(Variable Environment) --> key : value, a : 10, function()
+Code(Thread Of Execution) --> Code is executed line by line
+
+javascript is a synchronous single-threaded language
+
+single threaded -> only one command at a time
+synchronous single-threaded -> only one command at a time in a specific order i.e., it can only go to next line once the current line is finished executing
